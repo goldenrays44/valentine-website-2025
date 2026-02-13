@@ -43,7 +43,7 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "To infinity and beyond!",  // Shows when they go past 5000%
-        high: "v\beyond the galaxies?!",              // Shows when they go past 1000%
+        high: "beyond the galaxies?!",              // Shows when they go past 1000%
         normal: "to the furthest of the galaxies!"                           // Shows when they go past 100%
     },
 
@@ -61,7 +61,7 @@ const CONFIG = {
         backgroundEnd: "#BF124D",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#76153C",     // Button color (should stand out against the background)
         buttonHover: "#CD2C58",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#262626"             // Text color (make sure it's readable!)
+        textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
