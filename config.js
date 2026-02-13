@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️'],  // Heart emojis
+        hearts: ['❤️','🐤','​🪐','​🎀',​'💥','​🐇','​🍬','​🚀​'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "A lot",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, I love you!🪐​"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "to betelgeuse and back"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine? 🌹", // The big question!
+            text: "Will you be my Valentine?", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -42,25 +42,25 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "ACTUALLYYYYY INSANE",  // Shows when they go past 5000%
-        high: "To infinity and beyond!",              // Shows when they go past 1000%
-        normal: "And beyond the galaxies!"                           // Shows when they go past 100%
+        extreme: "To infinity and beyond!",  // Shows when they go past 5000%
+        high: "v\beyond the galaxies?!",              // Shows when they go past 1000%
+        normal: "to the furthest of the galaxies!"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: " I'm the luckiest girl in the world!",
-        message: "Mine on every 14th",
-        emojis: "🎁💝💋❤️💕"  // These will bounce around
+        message: "Mine on every valentines",
+        emojis: "I LOVE YOU"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
+        backgroundStart: "#BF124D",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#BF124D",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#76153C",     // Button color (should stand out against the background)
+        buttonHover: "#CD2C58",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
 
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dcaqkkdkw/video/upload/v1770940633/The_Mari%CC%81as_-_No_One_Noticed_Visualizer_mp3_jhvqww.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
